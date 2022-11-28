@@ -1,0 +1,101 @@
+body {
+  font-family: sans-serif;
+  /* background-color: black; */
+}
+#app {
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  border: 2px solid black;
+  height: 70vh;
+  width: 40%;
+  background-color: black;
+  color: white;
+  border-radius: 10%;
+}
+#circle {
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  border-radius: 50%;
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  transition: all ease-in-out 0.2s;
+  margin-bottom: 30px;
+}
+.minicircle {
+  border: 2px solid black;
+  height: 50%;
+  width: 50%;
+  margin: auto;
+  border-radius: 50%;
+  background-color: white;
+  transition: all ease-in-out 0.2s;
+}
+
+.square {
+  border: 2px solid black;
+  height: 50%;
+  width: 50%;
+  background-color: white;
+  transition: all ease-in-out 0.2s;
+}
+
+.triangle {
+  border-color: black;
+  border-left: 80px solid transparent;
+  border-bottom: 100px solid white;
+  border-right: 80px solid transparent;
+  transition: all ease-in-out 0.2s;
+}
+.triangle-down {
+  height: 0px;
+  width: 0px;
+  border-top: 100px solid white;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  transition: all ease-in-out 0.2s;
+}
+.triangle-bottom-left {
+  height: 0px;
+  width: 0px;
+  border-top: 100px solid white;
+  border-right: 100px solid transparent;
+  transition: all ease-in-out 0.2s;
+}
+.triangle-bottom-right {
+  height: 0px;
+  width: 0px;
+  border-top: 100px solid white;
+  border-left: 100px solid transparent;
+  transition: all ease-in-out 0.2s;
+}
+.triangle-top-left {
+  height: 0px;
+  width: 0px;
+  border-bottom: 100px solid white;
+  border-right: 100px solid transparent;
+  transition: all ease-in-out 0.2s;
+}
+.triangle-top-right {
+  height: 0px;
+  width: 0px;
+  border-bottom: 100px solid white;
+  border-left: 100px solid transparent;
+  transition: all ease-in-out 0.2s;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 20px;
+  text-transform: capitalize;
+  border: 2px solid black;
+  box-shadow: 0px 0px 5px black;
+  text-shadow: 0px 1px 1px black;
+  cursor: pointer;
+}
